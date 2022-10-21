@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 @font-face {
 	font-family: 'digital';
-	src: url(‘/fonts/digital.ttf’);
+	src: url(fonts/digitale.ttf);
 }
 * {
     font-family: 'Fuzzy Bubbles', cursive;
@@ -37,6 +37,9 @@
     border-radius: 5px; 
     font-family: 'digital', sans-serif;
     z-index: 1;
+    font-size: 15px;
+    font-weight: 100;
+    overflow-wrap: anywhere;
 }
 .touches {
     display: flex;
