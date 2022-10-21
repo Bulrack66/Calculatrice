@@ -1,28 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
-
+@font-face {
+	font-family: 'digital';
+	src: url(‘/fonts/digital.ttf’);
+}
 * {
     font-family: 'Fuzzy Bubbles', cursive;
 }
 
 .calculatrice {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    width: 300px;
-    border: 2px solid blueviolet;
+    width: 450px;
+    border-top: 12px solid whitesmoke;
+    border-bottom: 12px solid whitesmoke ;
     border-radius: 10px;
     overflow: hidden;
     margin: auto;
+    justify-content: space-between;
+    border-right: 5px solid black;  
+    border-left: 5px solid black;
+    background: black;
 }
 .ecran {
     display: flex;
     flex-direction: row;
-    background: blueviolet;
-    height: 35px;
-    color: white;
+    background: black;
+    color: #A5FAFE;
     justify-content: end;
-    align-items: end;
+    align-items: start;
     padding: 10px;
+    flex-basis: 35%;
+    margin: 23px 14px 61px 40px;
+    border-radius: 5px;
+    border: 2px solid white;  
+    font-family: 'digital', sans-serif;
 }
 .touches {
     display: flex;
@@ -31,12 +43,39 @@
     justify-content: space-between;
     column-gap: 5px;
     row-gap: 5px;
+    flex-basis: 42%;
+    padding: 5px;
 }
-button {
-    color: blueviolet;
+button,.virgule {
+    color: black;
     display: flex;
-    flex-basis: 23%;
+    flex-basis: 20%;
     background: white;
-    border: blueviolet 2px solid;
-    border-radius: 5px;
+    border: white 2px solid;
+    border-radius: 8px;
+}
+.fleche {
+    flex-basis: 20%;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.fa-solid.fa-caret-right {
+    width: 10px;
+}
+
+.Mplus {
+    flex-basis: 48%;
+}
+.C {
+    background: #F73938;
+    color: white;
+    border-color: #F73938;
+}
+
+.diviser,.X,.moins,.plus,.entre,.fleche {
+    background: #343A34;
+    color: white;
+    border-color: #343A34;
 }
