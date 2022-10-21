@@ -9,8 +9,10 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 300px;
-    border: 2px solid salmon;
+    border: 2px solid blueviolet;
     border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
 }
 .ecran {
     display: flex;
