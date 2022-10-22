@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 @font-face {
 	font-family: 'digital';
-	src: url(fonts/digitale.ttf);
+	src: url(fonts/digitale.woff);
 }
 * {
     font-family: 'Fuzzy Bubbles', cursive;
